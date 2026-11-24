@@ -1,0 +1,35 @@
+# Local secrets and signing material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+google-services.json
+GoogleService-Info.plist
+**/GoogleDrive.local.xcconfig
+
+# Private datasets and generated exports
+*.zip
+data/
+datasets/
+exports/
+records/
+trial_index/
+LOCAL_RESULT.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
